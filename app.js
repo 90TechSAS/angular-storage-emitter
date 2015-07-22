@@ -19,8 +19,8 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', function($rou
 	// var staticPath ='/';
 	var staticPath;
 	// staticPath ='/angular-services/angular-storage-emitter/';		//local
-	staticPath ='/';		//nodejs (local)
-	// staticPath ='/angular-storage-emitter/';		//gh-pages
+	//staticPath ='/';		//nodejs (local)
+	staticPath ='/angular-storage-emitter/';		//gh-pages
 	var appPathRoute ='/';
 	var pagesPath =staticPath+'pages/';
 	
