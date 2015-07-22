@@ -15,7 +15,7 @@ angular.module('myApp').controller('HomeCtrl', ['$scope', 'zlStorageEmitter', fu
     zlStorageEmitter.on('myEvent', function (e) {
         console.info(e);
         $scope.events.push(e);
-
+        $scope.$apply();
     });
     console.info(zlStorageEmitter.listeners('myEvent'));
 
